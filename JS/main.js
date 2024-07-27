@@ -38,7 +38,7 @@ window.onscroll = () => {
 };
 // ==========================Scroll reveal
 
-scrollReveal({
+ScrollReveal({
   distance: "80px",
   duration: 2000,
   delay: 200,

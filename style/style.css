@@ -419,10 +419,10 @@ color:var(--main-color);
     }
     .navbar{
         position: absolute;
-        top:100px;
+        top:50px;
         left: 0;
         width: 100%;
-        padding: 1rem 3%;
+        padding: 0 3%;
         background:var(--bg-color);
         border-top: .1rem solid rgba(0,0,0, .2);
         box-shadow: 0 .5rem 1rem rgba(0,0,0, .2);
@@ -450,7 +450,8 @@ color:var(--main-color);
     }
     .home-image {
         width: 70vw;
-        margin-top: 4rem;
+        margin: 3rem 6rem 3rem 0;
+        
     }
     .about {
         flex-direction: column;
