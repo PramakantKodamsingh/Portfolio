@@ -104,6 +104,7 @@ span{
     width: 25vw;
     animation:floatImage 4s ease-in-out infinite;
     border-radius: 10%;
+    box-shadow: 0 0 1rem var(--main-color);
 }
 
 @keyframes floatImage{
@@ -411,6 +412,11 @@ color:var(--main-color);
     }
     .footer {
         padding: 2rem 3%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+       
     }
 }
 @media (max-width: 768px) {
