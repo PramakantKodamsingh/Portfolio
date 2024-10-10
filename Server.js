@@ -9,9 +9,9 @@ require("dotenv").config();
 app.use(express.static(path.join(__dirname, "public")));
 
 // Serve index.html from the root directory
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "index.html"));
-});
+// app.get("/", (req, res) => {
+//   res.sendFile(path.join(__dirname, "public", "index.html"));
+// });
 app.get("/data", (req, res) => {
   res.json({ secretKey: process.env.API_KEY });
 });
